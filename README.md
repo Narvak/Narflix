@@ -64,7 +64,7 @@
 	|	|-> v4.11.0 = notation des films, séries, mangas, BD, jeux, musiques sur 5 étoiles. [  ]
 	|	|-> v4.12.0 = correctif [  ]
 	|	|-> v4.13.0 = Anticopy comme Netflix [  ]
-	|	|->	v4.14.0 = Vue ou pas encore vu [  ]
+	|	|-> v4.14.0 = Vue ou pas encore vu [  ]
 	|	|-> v4.15.0 = un compte pour plusieurs personnes (sous compte) [  ]
 	|	|-> v4.16.0 = correctif [  ]
 	|	|-> v4.17.0 = amelioration de l'algorithme de recommandation v4.0.0 [  ]
