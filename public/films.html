@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Your Name">
+		<meta name="description" content="Example description">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<!--dans 9999999 secondes le site retourne sur Index.html-->
+		<meta http-equiv="refresh" content="9999999;URL=index.html">
+
+		<link rel="stylesheet" href="../src/css/main.css">
+		<link rel="stylesheet" href="../src/css/effect.css">
+		<link rel="stylesheet" href="../src/css/policies.css">
+
+		<link rel="responcive" href="../src/css/media-queries.css">
+		<link rel="icon" type="image/x-icon" href="../src/admin/root/media/svg/logo.svg"/>
+
+		<title>Narflix | films / series / ...</title>
+	</head>
+
+		<script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script language="javascript" type="text/javascript" src="../src/javascript/lib-jquery.js"></script>
+		<script language="javascript" type="text/javascript" src="../src/javascript/all-lib_js.js"></script>
+
+		<script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+
+	<body>
+
+		<div id="header">
+			<header>
+				<a href="index.html">
+					<object data=".././src/admin/root/media/svg/logo.svg" type="image/svg+xml" class="logo"></object>
+				</a>
+
+				<a href="style.html">
+					<button class="zoompa">Tendances</button>
+				</a>
+
+				<a href="../././list.">
+					<button class="zoompa">Ma liste</button>
+				</a>
+
+				<a href="style.html">
+					<button class="zoompa">Séries</button>
+				</a>
+
+				<a href="style.html">
+					<button class="zoompa">Films</button>
+				</a>
+
+				<a href="style.htmll">
+					<button class="zoompa">Bonus</button>
+				</a>
+
+					<a href="about.html">
+						<button id="profile" class="zoompa">A propos</button>
+					</a>
+
+						<img src=".././src/admin/root/media/svg/logo.svg" class="zoompa" href="log-in/profil.php" id="img">
+
+					<a href="log-in/profil.php">
+						<button id="profile" class="zoompa">Profile</button>
+					</a>
+			</header>
+
+			<div id="carousel">
+
+				<div id="img1">
+					<button class="up" onclick="img1up(this)"></button>
+					<button class="down" onclick="img1down(this)"></button>
+						<img src=".././src/admin/root/media/images/header1.png" loading="lazy" alt="filme1">
+				</div>
+
+				<div id="img2" hidden>
+					<button class="up" onclick="img2up(this)"></button>
+					<button class="down" onclick="img2down(this)"></button>
+						<img src=".././src/admin/root/media/images/header2.png" loading="lazy" alt="filme2">
+				</div>
+
+				<div id="img3" hidden>
+					<button class="up" onclick="img3up(this)"></button>
+					<button class="down" onclick="img3down(this)"></button>
+						<img src=".././src/admin/root/media/images/header3.png" loading="lazy" alt="filme3">
+				</div>
+			</div>
+		</div>
+
+        <div id="see">
+            <h1>Film / séries / BD / mangas</h1>
+                <h2>Nom du film ou de la séries.</h2>
+                    <p>
+                        Description : <br />
+						lorem ipsum. <br />
+                    </p>
+
+                <iframe src=".././admin/root/media/consomable/films/" frameborder="0" loading="lazy" ></iframe>
+        </div>
+
+        <footer>
+            <p>
+                <strong>Narflix</strong> 2022 <br />
+                	<strong>V 1.14.0</strong> <br />
+                		<a href="https://github.com/Narvak/Narflix" target="_blank">Le repo github</a> / <a href="http://" target="_blank"></a> / <a href="http://" target="_blank"></a> <br />
+                			<a href="http://" target="_blank"></a> / <a href="http://" target="_blank"></a> / <a href="http://" target="_blank"></a> <br />
+            </p>
+        </footer>
+
+	</body>
+</html>

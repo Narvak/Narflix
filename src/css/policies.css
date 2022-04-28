@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url(BebasNeueRegular.eot);
+    src: url(BebasNeueRegular.eot?#iefix) format('embedded-opentype'),
+         url(BebasNeueRegular.woff) format('woff'),
+         url(BebasNeueRegular.ttf) format('truetype'),
+         url(BebasNeueRegular.svg) format('svg');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bebas Neue";
+    text-align: justify;
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+    h1 strong {
+        font-size: 31pt;
+        color: rgb(225, 225, 225);
+    }
+
+h2 {
+    font-size: 21pt;
+}
+
+p {
+    font-family: Bodoni MT, Didot, Didot LT STD, Times New Roman, serif;
+    text-align: justify;
+}
+
+#btn_type {
+    font-size: 12pt;
+    text-align: center;
+}
+    #btn_type:hover {
+        font-size: 15pt;
+        text-align: center;
+    }
+
+footer {
+    font-size: 11pt;
+    text-align: justify;
+}
+    footer strong {
+        font-family: "Bebas Neue";
+        font-size: 13pt;
+        color: rgb(225, 225, 225);
+        text-align: justify;
+    }

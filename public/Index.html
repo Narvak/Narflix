@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Your Name">
+		<meta name="description" content="Example description">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<link rel="stylesheet" href="../src/css/main.css">
+		<link rel="stylesheet" href="../src/css/effect.css">
+		<link rel="stylesheet" href="../src/css/policies.css">
+
+		<link rel="responcive" href="../src/css/media-queries.css">
+		<link rel="icon" type="image/x-icon" href="../src/admin/root/media/svg/logo.svg"/>
+
+		<title>Narflix | index</title>
+	</head>
+
+		<script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script language="javascript" type="text/javascript" src="../src/javascript/lib-jquery.js"></script>
+		<script language="javascript" type="text/javascript" src="../src/javascript/all-lib_js.js"></script>
+
+        <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+
+	<body>
+
+		<div id="header">
+			<header>
+				<a href="index.html">
+					<object data=".././src/admin/root/media/svg/logo.svg" type="image/svg+xml" class="logo"></object>
+				</a>
+
+				<a href="style.html">
+					<button class="zoompa">Tendances</button>
+				</a>
+
+				<a href="../././list.">
+					<button class="zoompa">Ma liste</button>
+				</a>
+
+				<a href="style.html">
+					<button class="zoompa">Séries</button>
+				</a>
+
+				<a href="style.html">
+					<button class="zoompa">Films</button>
+				</a>
+
+				<a href="style.htmll">
+					<button class="zoompa">Bonus</button>
+				</a>
+
+					<a href="about.html">
+						<button id="profile" class="zoompa">A propos</button>
+					</a>
+
+						<img src=".././src/admin/root/media/svg/logo.svg" class="zoompa" href="log-in/profil.php" id="img">
+
+					<a href="log-in/profil.php">
+						<button id="profile" class="zoompa">Profile</button>
+					</a>
+			</header>
+
+				<div id="carousel">
+
+					<div id="img1">
+						<button class="up" onclick="img1up(this)"></button>
+						<button class="down" onclick="img1down(this)"></button>
+							<img src=".././src/admin/root/media/images/header1.png" loading="lazy" alt="filme1">
+					</div>
+
+					<div id="img2" hidden>
+						<button class="up" onclick="img2up(this)"></button>
+						<button class="down" onclick="img2down(this)"></button>
+							<img src=".././src/admin/root/media/images/header2.png" loading="lazy" alt="filme2">
+					</div>
+
+					<div id="img3" hidden>
+						<button class="up" onclick="img3up(this)"></button>
+						<button class="down" onclick="img3down(this)"></button>
+							<img src=".././src/admin/root/media/images/header3.png" loading="lazy" alt="filme3">
+					</div>
+				</div>
+		</div>
+
+		<div id="narflix">
+			<h1>
+				" Regardez vos films, séries, BD, mangas préférées gratuitement et sans pub sur <br />
+				La vrai, <strong>la magnifique,</strong> l'unique, <strong>la fabuleuse,</strong> l'exceptionnel, <strong>la grandiose,</strong> la sublime que dis je, ... <strong>la sobrement</strong> plateforme nomée : <br />
+				<strong>Narflix</strong> "
+			</h1>
+					<p>
+						" Ce site a été créé par un passionné. <br />
+						Ce qui fait de cette plateforme une pépite de paisson et de tryhard. <br />
+						Le tryhard, et la passion, on été fusioné pour donné <strong>Narflix</strong>. <br />
+						La passion avant tout, tout de même. " <br />
+					</p>
+		</div>
+
+        	<div id="intro">
+				<div id="btn_intro_background">
+					<a href="#">
+						<button class="intro_button">Ajouté</button>
+					</a>
+
+					<a href="consomable/films series/films.html">
+						<button class="intro_button">A propos</button>
+					</a>
+
+					<a href="#">
+						<button class="intro_button">Lecture</button>
+					</a>
+				</div>
+			</div>
+
+            <table>
+
+                <tr id="tendances">
+                    <td id="dit1">
+                        <h2>Tendances</h2>
+                            <a href="style.html"><button id="btn_type"><p>Horreur</p></button></a>
+                            <a href="style.html"><button id="btn_type"><p>SF</p></button></a>
+                            <a href="style.html"><button id="btn_type"><p>Fiction</p></button></a>
+                            <a href="style.html"><button id="btn_type"><p>Science</p></button></a>
+                            <a href="style.html"><button id="btn_type"><p>Polar</p></button></a>
+                            <a href="style.html"><button id="btn_type"><p>Thriler</p></button></a>
+                            <a href="style.html"><button id="btn_type"><p>Drame</p></button></a>
+                            <a href="style.html"><button id="btn_type"><p>Humour</p></button></a>
+                            <a href="style.html"><button id="btn_type"><p>Animé</p></button></a>
+
+                            <button id="btn_type" onclick="dit2(this)"><p>Top 8</p></button>
+                    </td>
+
+                            <td id="dit2" hidden>
+                                <button id="left" onclick="tendances(this)"></button>
+
+							        <img src=".././admin/root/media/images/tendances/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+							        <img src=".././admin/root/media/images/tendances/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+							        <img src=".././admin/root/media/images/tendances/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+							        <img src=".././admin/root/media/images/tendances/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+							        <img src=".././admin/root/media/images/tendances/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+							        <img src=".././admin/root/media/images/tendances/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+							        <img src=".././admin/root/media/images/tendances/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+							        <img src=".././admin/root/media/images/tendances/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                            </td>
+                </tr>
+
+                <tr id="lecture">
+                    <td>
+                        <h2>En cours de lecture</h2>
+                            <img src=".././admin/root/media/images/lecture/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                            <img src=".././admin/root/media/images/lecture/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                            <img src=".././admin/root/media/images/lecture/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                            <img src=".././admin/root/media/images/lecture/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                            <img src=".././admin/root/media/images/lecture/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                            <img src=".././admin/root/media/images/lecture/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                            <img src=".././admin/root/media/images/lecture/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                            <img src=".././admin/root/media/images/lecture/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                    </td>
+                </tr>
+
+                <tr id="list">
+                    <td id="li">
+                        <h2>Ma liste</h2>
+
+                            <button id="right" onclick="listp2(this)"></button>
+
+                                <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                    </td>
+                            <td id="listp2" hidden>
+                                <button id="left" onclick="list(this)"></button>
+                                <button id="right" onclick="listp3(this)"></button>
+
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+
+                            </td>
+                            <td id="listp3" hidden>
+                                <button id="left" onclick="listp2(this)"></button>
+                                <button id="right" onclick="listp4(this)"></button>
+
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+
+                            </td>
+                            <td id="listp4" hidden>
+                                <button id="left" onclick="listp3(this)"></button>
+                                <button id="right" onclick="listp5(this)"></button>
+
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+    
+                            </td>
+                            <td id="listp5" hidden>
+                                <button id="left" onclick="listp4(this)"></button>
+                                <button id="right" onclick="listp6(this)"></button>
+
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+
+                            </td>
+                            <td id="listp6" hidden>
+                                <button id="left" onclick="listp5(this)"></button>
+
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/list/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+    
+                            </td>
+                    </tr>
+
+                    <tr id="serie">
+                        <td id="si">
+                            <h2>Séries</h2>
+                                <button id="right" onclick="seriep2(this)"></button>
+
+                                    <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                        </td>
+                                    <td id="seriep2" hidden>
+                                        <button id="left" onclick="serie(this)"></button>
+
+                                            <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                            <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                            <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                            <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                            <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                            <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                            <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                            <img src=".././admin/root/media/images/serie/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    </td>
+                    </tr>
+
+                    <tr id="films">
+                        <td id="fi">
+                            <h2>Films</h2>
+                                <button id="right" onclick="filmsp2(this)"></button>
+
+                                    <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                        </td>
+
+                                <td id="filmsp2" hidden>
+                                    <button id="left" onclick="films(this)"></button>
+
+                                        <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/films/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                </td>
+                    </tr>
+
+                    <tr id="docu">
+                        <td id="do">
+                            <h2>Documentaires</h2>
+
+                                <button id="right" onclick="docup2(this)"></button>
+
+                                    <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                        </td>
+
+                                <td id="dop2" hidden>
+                                    <button id="left" onclick="docu(this)"></button>
+
+                                        <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/docu/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                </td>
+                    </tr>
+
+                    <tr id="bd">
+                        <td id="b">
+                            <h2>BD</h2>
+                                <button id="right" onclick="bd2(this)"></button>
+
+                                    <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                        </td>
+
+                                <td id="bd2" hidden>
+                                    <button id="left" onclick="bd(this)"></button>
+
+                                        <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/bd/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                </td>
+                    </tr>
+
+                    <tr id="manga">
+                        <td id="m">
+                            <h2>Mangas</h2>
+                                <button id="right" onclick="manga2(this)"></button>
+
+                                    <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                    <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                            </td>
+
+                                <td id="manga2" hidden>
+                                    <button id="left" onclick="manga(this)"></button>
+        
+                                        <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/manga/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                </td>
+                    </tr>
+
+                    <tr id="outro">
+                        <td id="oi">
+                            <h2>Jeux vidéos</h2>
+                                <a href="style.html"><button id="btn_type"><p>Horreur</p></button></a>
+                                <a href="style.html"><button id="btn_type"><p>SF</p></button></a>
+                                <a href="style.html"><button id="btn_type"><p>Fiction</p></button></a>
+                                <a href="style.html"><button id="btn_type"><p>Science</p></button></a>
+                                <a href="style.html"><button id="btn_type"><p>Polar</p></button></a>
+                                <a href="style.html"><button id="btn_type"><p>Thriler</p></button></a>
+                                <a href="style.html"><button id="btn_type"><p>Drame</p></button></a>
+                                <a href="style.html"><button id="btn_type"><p>Humour</p></button></a>
+                                <a href="style.html"><button id="btn_type"><p>Action</p></button></a>
+                                <a href="style.html"><button id="btn_type"><p>Stratégie</p></button></a>
+                                <a href="style.html"><button id="btn_type"><p>MMORPG</p></button></a>
+                                <button id="btn_type" onclick="outrop2(this)" ><p>Top 8</p></button>
+                        </td>
+                                <td id="outrop2" hidden>
+                                    <button id="left" onclick="outro(this)"></button>
+
+                                        <img src=".././admin/root/media/images/bonus/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/bonus/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/bonus/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/bonus/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/bonus/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/bonus/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/bonus/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                        <img src=".././admin/root/media/images/bonus/img1.png" href="films series/films.html" loading="lazy" class="zoomlfs">
+                                </td>
+                    </tr>
+            </table>
+
+			<footer>
+				<p>
+					<strong>Narflix</strong> 2022 <br />
+						<strong>V 1.14.0</strong> <br />
+							<a href="https://github.com/Narvak/Narflix" target="_blank">Le repo github</a> / <a href="http://" target="_blank"></a> / <a href="http://" target="_blank"></a> <br />
+								<a href="http://" target="_blank"></a> / <a href="http://" target="_blank"></a> / <a href="http://" target="_blank"></a> <br />
+				</p>
+			</footer>	
+
+	</body>
+</html>

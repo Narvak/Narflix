@@ -1,0 +1,14 @@
+l'algorithme de recomendation
+    |-> v1.0.0
+    |   |-> Une chance sur 9 le tout multiplié par le nombre d'écoute sur la plateforme (x). (1/9)*x
+    |
+    |-> v2.0.0
+    |   |-> Une chance sur 9 le tout sur le nombre d'écoute sur la plateforme (x) le tout multiplié par le nombre de likes (y). ((1/9)*x)*y
+    |
+    |-> v3.0.0
+    |   |-> Une chance sur 9 le tout sur le nombre d'écoute sur la plateforme (x) le tout multiplié par le nombre de likes (y) la totalité plus 1. (((1/9)*x)*y)+1
+    |
+    |-> v4.0.0
+    |   |-> Une chance sur 9 le tout sur le nombre d'écoute sur la plateforme (x) le tout multiplié par le nombre de likes (y) le nombre d'utilisateurau carré (z²). (((1/9)*x)*y)*z²
+    |
+    |-> 

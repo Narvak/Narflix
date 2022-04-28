@@ -1,0 +1,676 @@
+body {
+    background-image: linear-gradient( 175deg, #ff0000 10%, #000000 100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+    color: white;
+}
+
+#gen {
+    background: black;
+    color: white;
+}
+    #gen button {
+        background: rgb(150, 175, 200);
+        color: black;
+        width: 75px;
+        height: 40px;
+        border-radius: 5px 5px 5px 5px;
+        border-color: transparent;
+    }
+        #gen button:hover {
+            background: black;
+            color: white;
+            border-color: transparent;
+        }
+        #img_profil {
+            background: black;
+            color: whitesmoke;
+            width: auto;
+            height: auto;
+        }
+
+a {
+    color: whitesmoke;
+}
+    a:hover {
+        color: thistle;
+    }
+
+header {
+    background: black;
+    color: white;
+    width: 825px;
+    height: 100px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 1;
+    left: 25%; 
+}
+    header:hover {
+        background: rgb(10, 10, 10);
+        color: rgb(200, 225, 250);
+    }
+        header button {
+            background: transparent;
+            color: white;
+            width: 75px;
+            height: 50px;
+            border-color: transparent;
+        }
+            header button:hover {
+                background: rgb(25, 25, 25);
+                color: white;
+                border-color: transparent;
+            }
+    header #profile {
+        background: transparent;
+        color: white;
+        width: 75px;
+        height: 50px;
+        border-color: transparent;
+        float: right;
+    }
+        header #profile:hover {
+            background: rgb(25, 25, 25);
+            color: white;
+            border-color: transparent;
+        }
+    header #img {
+        background: transparent;
+        color: violet;
+        width: 75px;
+        height: 75px;
+        border-radius: 10px 10px 10px 10px;
+        border-color: transparent;
+        float: right;
+    }
+        header #img:hover {
+            background: rgba(100, 125, 150, 0.100);
+            color: rgb(200, 200, 200);
+            border-color: rgb(100, 125, 150);
+        }
+    #header {
+        background-image: transparent;
+        color: rgb(110, 85, 37);
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 300px;
+        border-radius: 10px 10px 10px 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #carousel {
+        background-image: transparent;
+        color: rgb(110, 85, 37);
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 10px 10px 10px;
+    }
+        #carousel img {
+            width: 1500px;
+            height: 300px;
+            border-radius: 10px 10px 10px 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    #search {
+        background: transparent;
+        color: black;
+        width: 100px;
+        height: 300px;
+        float: right;
+    }
+        #searsh input {
+            background: white;
+            color: black;
+            width: 25px;
+            height: 10px;
+            border-radius: 10px 10px 10px 10px;
+            border-color: transparent;
+        }
+            #searsh input:hover {
+                background: whitesmoke;
+                color: black;
+            }
+        .logo {
+            width: 5%;
+            height: auto;
+        }
+
+#btn_type {
+    background: red;
+    color: white;
+    width: 89px;
+    height: 55px;
+    border: transparent;
+        border-radius: 10px 10px 10px 10px;
+}
+    #btn_type:hover {
+        background: black;
+        color: white;
+        width: 144px;
+        height: 89px;
+    }
+
+footer {
+    background: black;
+    color: white;
+    width: auto;
+    height: 150px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.up {
+    background: rgb(25, 25, 25);
+    color: white;
+    width: 25px;
+    height: 300px;
+    border-radius: 10px 10px 10px 10px;
+        border-color: rgb(25, 25, 25);
+        border-width: 0px;
+    float: left;
+}
+    .up:hover {
+        background: rgb(50, 50, 50);
+        border-color: rgb(25, 25, 25);
+    }
+        .up::after {
+            color: white;
+            content: "<";
+        }
+
+.down {
+    background: rgb(25, 25, 25);
+    color: white;
+    width: 25px;
+    height: 300px;
+    border-radius: 10px 10px 10px 10px;
+        border-color: rgb(25, 25, 25);
+        border-width: 0px;
+    float: right;
+}
+    .down:hover {
+        background: rgb(50, 50, 50);
+        border-color: rgb(25, 25, 25);
+    }
+        .down::after {
+            color: white;
+            content: ">";
+        }
+
+#left {
+    background: rgb(25, 25, 25);
+    color: white;
+    width: 25px;
+    height: 300px;
+    border-radius: 10px 10px 10px 10px;
+        border-color: rgb(25, 25, 25);
+        border-width: 0px;
+    float: left;
+}
+    #left:hover {
+        background: rgb(50, 50, 50);
+        border-color: rgb(25, 25, 25);
+    }
+        #left::after {
+            color: white;
+            content: "<";
+        }
+
+#right {
+    background: rgb(25, 25, 25);
+    color: white;
+    width: 25px;
+    height: 300px;
+    border-radius: 10px 10px 10px 10px;
+        border-color: rgb(25, 25, 25);
+        border-width: 0px;
+    float: right;
+}
+    #right:hover {
+        background: rgb(50, 50, 50);
+        border-color: rgb(25, 25, 25);
+    }
+        #right::after {
+            color: white;
+            content: ">";
+        }
+
+#see {
+    background: black;
+    color: white;
+    width: auto;
+    height: 1600px;
+    border-radius: 10px 10px 10px 10px;
+}
+    #see iframe {
+        background: transparent;
+        color: transparent;
+        width: 655px;
+        height: 400px;
+        float: right;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+#narflix {
+    background-image: linear-gradient( 180deg, #000000 10%, #404040 100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#intro {
+    background-image: url(.././admin/root/media/asset/no_image_600_x_1920.png);
+    color: white;
+    width: 100%;
+    height: 600px;
+    border-radius: 10px 10px 10px 10px;
+}
+    #intro:hover {
+        background-image: url(.././admin/root/media/asset/no_image_600_x_1920.png);
+        color: whitesmoke;
+        opacity: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+        #intro img {
+            width: auto;
+            height: 500px;
+            border-radius: 10px 10px 10px 10px;
+            float: left;
+        }
+            #intro img:hover {
+                background: transparent;
+                color: lightgray;
+                opacity: 90%;
+                border-radius: 10px 10px 10px 10px;
+            }
+    .intro_button {
+        background: rgba(0, 0, 0, 0.200);
+        color: white;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px 10px 10px 10px;
+        border-color: transparent;
+        float: left;
+        padding-bottom: 0;
+    }
+        .intro_button:hover {
+            background: rgb(0, 0, 0);
+            color: white;
+            border-color: transparent;
+            border-radius: 10px 10px 10px 10px;
+        }
+    #btn_intro_background {
+        background: rgba(55, 89, 144, 0.750);
+        color: white;
+        width: auto;
+        height: auto;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+#tendances {
+    background: black;
+    color: white;
+    width: auto;
+    height: 420px;
+    border-radius: 10px 10px 10px 10px;
+}
+    #tendances:hover {
+        background: transparent;
+        color: whitesmoke;
+        opacity: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #tendances img {
+        background-image: url(.././admin/root/media/asset/no_image_200_x_400.png);
+        color: none;
+        width: 100px;
+        height: 200px;
+        border-radius: 10px 10px 10px 10px;
+    }
+        #tendances img:hover {
+            background: transparent;
+            color: lightgray;
+            opacity: 90%;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+#lecture {
+    background: black;
+    color: white;
+    width: auto;
+    height: 420px;
+    border-radius: 10px 10px 10px 10px;
+}
+    #lecture:hover {
+        background: transparent;
+        color: whitesmoke;
+        opacity: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #lecture img {
+        background-image: url(.././admin/root/media/asset/no_image_200_x_400.png);
+        color: none;
+        width: 100px;
+        height: 200px;
+        border-radius: 10px 10px 10px 10px;
+    }
+        #lecture img:hover {
+            background: transparent;
+            color: lightgray;
+            opacity: 90%;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+#list {
+    background: black;
+    color: white;
+    width: auto;
+    height: 420px;
+    border-radius: 10px 10px 10px 10px;
+}
+    #list:hover {
+        background: transparent;
+        color: whitesmoke;
+        opacity: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #list img {
+        background-image: url(.././admin/root/media/asset/no_image_200_x_400.png);
+        color: none;
+        width: 100px;
+        height: 200px;
+        border-radius: 10px 10px 10px 10px;
+    }
+        #list img:hover {
+            background: transparent;
+            color: lightgray;
+            opacity: 90%;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+#serie, #seriep2 {
+    background: black;
+    color: white;
+    width: auto;
+    height: 420px;
+    border-radius: 10px 10px 10px 10px;
+}
+    #serie:hover {
+        background: transparent;
+        color: whitesmoke;
+        opacity: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #serie img {
+        background-image: url(.././admin/root/media/asset/no_image_200_x_400.png);
+        color: none;
+        width: 100px;
+        height: 200px;
+        border-radius: 10px 10px 10px 10px;
+    }
+        #serie img:hover {
+            background: transparent;
+            color: lightgray;
+            opacity: 90%;
+            border-radius: 10px 10px 10px 10px;
+        }
+    #seriep2 {
+        background: transparent;
+        color: whitesmoke;
+        opacity: 90%;
+    }
+    #seriep2 img {
+        background-image: url(.././admin/root/media/asset/no_image_200_x_400.png);
+        color: none;
+        width: 100px;
+        height: 200px;
+        border-radius: 10px 10px 10px 10px;
+    }
+        #seriep2 img:hover {
+            background: transparent;
+            color: lightgray;
+            opacity: 90%;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+#films {
+    background: black;
+    color: white;
+    width: auto;
+    height: 420px;
+    border-radius: 10px 10px 10px 10px;
+}
+    #films:hover {
+        background: transparent;
+        color: whitesmoke;
+        opacity: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #films img {
+        background-image: url(.././admin/root/media/asset/no_image_200_x_400.png);
+        color: none;
+        width: 100px;
+        height: 200px;
+        border-radius: 10px 10px 10px 10px;
+    }
+        #films img:hover {
+            background: transparent;
+            color: lightgray;
+            opacity: 90%;
+            border-radius: 10px 10px 10px 10px;
+        }
+    #filmsp2 {
+        background: transparent;
+        color: whitesmoke;
+        opacity: 90%;
+    }
+    #filmsp2 img {
+        width: 100px;
+        height: 200px;
+        border-radius: 10px 10px 10px 10px;
+    }
+            #filmsp2 img:hover {
+                background: transparent;
+                color: lightgray;
+                opacity: 90%;
+                border-radius: 10px 10px 10px 10px;
+            }
+
+#docu {
+    background: black;
+    color: white;
+    width: auto;
+    height: 420px;
+    border-radius: 10px 10px 10px 10px;
+}
+    #docu:hover {
+        background: transparent;
+        color: whitesmoke;
+        opacity: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #docu img {
+        background-image: url(.././admin/root/media/asset/no_image_200_x_400.png);
+        color: none;
+        width: 100px;
+        height: 200px;
+        border-radius: 10px 10px 10px 10px;
+    }
+        #docu img:hover {
+            background: transparent;
+            color: lightgray;
+            opacity: 90%;
+            border-radius: 10px 10px 10px 10px;
+        }
+    #dop2 {
+        background: transparent;
+        color: whitesmoke;
+        opacity: 90%;
+    }
+    #dop2 img {
+        width: 100px;
+        height: 200px;
+        border-radius: 10px 10px 10px 10px;
+    }
+            #dop2 img:hover {
+                background: transparent;
+                color: lightgray;
+                opacity: 90%;
+                border-radius: 10px 10px 10px 10px;
+            }
+
+#bd {
+    background: black;
+    color: white;
+    width: auto;
+    height: 420px;
+    border-radius: 10px 10px 10px 10px;
+}
+#bd:hover {
+    background: transparent;
+    color: whitesmoke;
+    opacity: 90%;
+    border-radius: 10px 10px 10px 10px;
+}
+#bd img {
+    background-image: url(.././admin/root/media/asset/no_image_200_x_400.png);
+    color: none;
+    width: 100px;
+    height: 200px;
+    border-radius: 10px 10px 10px 10px;
+}
+    #bd img:hover {
+        background: transparent;
+        color: lightgray;
+        opacity: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+#bd2 {
+    background: transparent;
+    color: whitesmoke;
+    opacity: 90%;
+}
+#bd img {
+    background-image: url(.././admin/root/media/asset/no_image_200_x_400.png);
+    color: none;
+    width: 100px;
+    height: 200px;
+    border-radius: 10px 10px 10px 10px;
+}
+    #bd img:hover {
+        background: transparent;
+        color: lightgray;
+        opacity: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+#manga {
+    background: black;
+    color: white;
+    width: auto;
+    height: 420px;
+    border-radius: 10px 10px 10px 10px;
+}
+    #manga:hover {
+        background: transparent;
+        color: whitesmoke;
+        opacity: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #manga img {
+        background-image: url(.././admin/root/media/asset/no_image_200_x_400.png);
+        color: none;
+        width: 100px;
+        height: 200px;
+        border-radius: 10px 10px 10px 10px;
+    }
+        #manga img:hover {
+            background: transparent;
+            color: lightgray;
+            opacity: 90%;
+            border-radius: 10px 10px 10px 10px;
+        }
+    #manga2 {
+        background: transparent;
+        color: whitesmoke;
+        opacity: 90%;
+    }
+    #manga img {
+        background-image: url(.././admin/root/media/asset/no_image_200_x_400.png);
+        color: none;
+        width: 100px;
+        height: 200px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #manga img:hover {
+        background: transparent;
+        color: lightgray;
+        opacity: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+#outro {
+    background: black;
+    color: white;
+    width: auto;
+    height: 420px;
+    border-radius: 10px 10px 10px 10px;
+}
+    #outro:hover {
+        background: transparent;
+        color: whitesmoke;
+        opacity: 90%;
+    }
+    #outro img {
+        background-image: url(.././admin/root/media/asset/no_image_200_x_400.png);
+        color: none;
+        width: 100px;
+        height: 100px;
+        border-radius: 10px 10px 10px 10px;
+    }
+        #outro img:hover {
+            background: transparent;
+            color: lightgray;
+            opacity: 90%;
+            border-radius: 10px 10px 10px 10px;
+        }
+    #outrop2 {
+        background: transparent;
+        color: whitesmoke;
+        opacity: 90%;
+    }
+
+#style {
+    background: black;
+    color: white;
+    width: auto;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+    #style:hover {
+        background: transparent;
+    }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, tr, td {
+    border-radius: 10px;
+}
+
+#about {
+    background: black;
+    color: white;
+    width: auto;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+}

@@ -1,0 +1,68 @@
+.zoom {
+    background-color: blue;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px;
+    opacity: 50%;
+    transition: transform .2s; /* Animation */
+}
+    .zoom:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+    #intro image {
+        opacity: 100%;
+    }
+        #intro image:hover {
+            opacity: 100%;
+        }
+
+.zoomlfs {
+    background-color: blue;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px;
+    opacity: 50%;
+    transition: transform .2s; /* Animation */
+}
+    .zoomlfs:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+        .zoomlfs #list image {
+            opacity: 100%;
+        }
+            .zoomlfs #list image:hover {
+                opacity: 100%;
+            }
+        .zoomlfs #serie image {
+            opacity: 100%;
+        }
+            .zoomlfs #serie image:hover {
+                opacity: 100%;
+            }
+        .zoomlfs #films image {
+            opacity: 100%;
+        }
+            .zoomlfs #films image:hover {
+                opacity: 100%;
+            }
+        .zoomlfs #outro image {
+            opacity: 100%;
+        }
+            .zoomlfs #outro image:hover {
+                opacity: 100%;
+            }
+
+.zoompa {
+    background: transparent;
+    width: 75px;
+    height: 25px;
+    margin: 0 auto;
+    padding: 2px;
+    opacity: 100%;
+    transition: transform 0.2s; /* Animation */
+}
+    .zoompa:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
