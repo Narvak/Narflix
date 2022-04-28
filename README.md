@@ -22,8 +22,8 @@
 	|	|-> v1.11.0 = responsive (sans le fichier media-queries.css) [ fini ]
 	|	|-> v1.12.0 = temps retour page index.html [ fini ]
 	|	|-> v1.13.0 = nombre d'images ( de 9 à 8 ) [ fini ]
-	|	|-> v1.14.0 = instant.page (https://instant.page/) [ en cours ]
-	|	|-> v1.15.0 = css grid [  ]
+	|	|-> v1.14.0 = instant.page (https://instant.page/) [ fini ]
+	|	|-> v1.15.0 = css grid [ en cours ]
 	|	|-> v1.16.0 = correctif final [ en cours ]
 	|	|	|-> potenciel vrais pause sur le projet.
 	|
