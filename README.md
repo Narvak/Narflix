@@ -2,6 +2,9 @@
 	Nom = Narflix
 ## A propos
 	Narflix est une plateforme de streaming open source.
+	Ce git hub est le suport officiel de Narflix.
+	Narflix est alimenté par des membres de la communauté et des pa$$ioné$.
+	Mais nous accepterons les correctifs et la documentation.
 
 ## Toutes les versions
 	NARFLIX
