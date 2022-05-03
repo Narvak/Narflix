@@ -1,5 +1,4 @@
 /*
-
 #gen, a, header, #profile, #img, #carousel, #search, .logo, #btn_type, footer,
 .up, .down, #left, #right, #see, input, iframe, #narflix, #intro, .intro_button,
 #btn_intro_background, #tendances, #lecture, #list,  #serie, #seriep2, #films,
@@ -8,11 +7,12 @@
     padding: 0;
     list-style-type: none;
 }
-
 */
 
+/*
 * {
     margin: 0;
     padding: 0;
-    /*list-style-type: none;*/
+    list-style-type: none;
 }
+*/

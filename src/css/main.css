@@ -1,13 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: linear-gradient( 175deg, #ff0000 10%, #000000 100%);
         background-repeat: no-repeat;
         background-size: cover;
     color: white;
-}
-
-* {
-    margin: 0;
-    padding: 0;
 }
 
 #gen {
@@ -51,7 +51,7 @@ header {
     margin-right: auto;
     position: absolute;
     top: 1;
-    left: 27%; 
+    left: 27%;
 }
     header:hover {
         background: rgb(10, 10, 10);
@@ -251,6 +251,10 @@ footer {
     height: 1600px;
     border-radius: 10px 10px 10px 10px;
 }
+    #see:hover {
+        background: transparent;
+        color: whitesmoke;
+    }
     #see iframe {
         background: transparent;
         color: transparent;
