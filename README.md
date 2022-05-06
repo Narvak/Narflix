@@ -25,7 +25,7 @@
 	|	|-> v1.14.0 = instant.page (https://instant.page/) [ fini ]
 	|	|-> v1.15.0 = css grid [ en cours ]
 	|	|-> v1.16.0 = tail wind css (https://www.tailwindcss.com) [ en cours ]
-	|	|-> v1.17.0 = <py-script></py-script> [ en cours ]
+	|	|-> v1.17.0 = <py-script></py-script> / Python [ en cours ]
 	|	|-> v1.18.0 = javascript pour le caroussel [ en cours ]
 	|	|-> v1.19.0 = correctif final [ en cours ]
 	|	|	|-> potenciel vrais pause sur le projet.
@@ -84,7 +84,7 @@
 	|	|-> v6.1.0 = [  ]
 
 ## Version actuelle
-	v1.15.0
+	v1.14.0
 ## Languages web
 	css, html, php, javascript (jquery), shell, sql, json,
 ## Créé par 
