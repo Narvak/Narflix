@@ -84,7 +84,7 @@
 	|	|-> v6.1.0 = [  ]
 
 ## Version actuelle
-	v1.14.0
+	v1.15.0
 ## Languages web
 	css, html, php, javascript (jquery), shell, sql, json,
 ## Créé par 
