@@ -7,15 +7,6 @@
 	Mais nous accepterons les correctifs et la documentation.
 
 ## Toutes les versions
-	# Narflix
-	Nom = Narflix
-## A propos
-	Narflix est une plateforme de streaming open source.
-	Ce git hub est le suport officiel de Narflix.
-	Narflix est alimenté par des membres de la communauté et des pa$$ioné$.
-	Mais nous accepterons les correctifs et la documentation.
-
-## Toutes les versions
 	NARFLIX
 	|-> v1.0.0 = structure de base (html, css, jquery) [ fini ]
 	|	|-> v1.1.0 = correctif + encart (gratis + sans pub) [ fini ]
@@ -93,20 +84,7 @@
 	|	|-> v6.1.0 = [  ]
 
 ## Version actuelle
-	v1.14.0
-## Languages web
-	css, html, php, javascript (jquery), shell, sql, json,
-## Créé par 
-	Narvak
-
-## Contributions
-	Si vous voulez contribuer à l'amélioration de Narflix vous pouvez le faire.
-
-## Contributeurs
-	Narvak
-
-## Version actuelle
-	v1.14.0
+	v1.15.0
 ## Languages web
 	css, html, php, javascript (jquery), shell, sql, json,
 ## Créé par 
