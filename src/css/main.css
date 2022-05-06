@@ -681,6 +681,13 @@ table, tr, td {
     color: whitesmoke;
 }
 
+.img_table_compte:hover {
+    background: none;
+    color: none;
+    width: 250px;
+    height: 250px;
+}
+
 #about {
     background: black;
     color: white;
