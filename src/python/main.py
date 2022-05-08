@@ -3,6 +3,7 @@ import _osx_support
 from re import X
 import sys
 from tkinter import N
+import tkinter
 from traceback import print_tb
 from typing import Any
 from xml.dom.minidom import Notation
@@ -28,6 +29,26 @@ def recur_fibo(n):
 def date():
     x_date = datetime.datetime.now()
     print(x_date)
+
+def main_date_recur_name_jj_godjira_godzilla():
+    print(" ***************************************** ")
+    print(" Bonjour \n Je vous souhaite la bienvenue. ")
+    print(" ***************************************** ")
+    c = print("""
+    [ 1 ] = main
+    [ 2 ] = exit
+    [ 3 ] = date
+
+    Please enter a number beetwin 1 and 3.
+    ## >
+    """)
+    if c == '1':
+        main()
+    if c == '2':
+        exit()
+    if c == '3':
+        x_date = datetime.datetime.now()
+        print(x_date)
 
 
 def main(a):
