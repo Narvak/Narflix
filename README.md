@@ -1,9 +1,10 @@
 # Narflix
 	Nom = Narflix
+
 ## A propos
 	Narflix est une plateforme de streaming open source.
 	Ce repo git hub est le suport officiel de Narflix.
-	Narflix est alimenté par des membres de la communauté et des pa$$ioné$.
+	Narflix est alimenté par des membres de la communauté opensource et des pa$$ioné$.
 	Mais nous accepterons les correctifs et la documentation.
 
 ## Toutes les versions
@@ -25,7 +26,7 @@
 	|	|-> v1.14.0 = instant.page (https://instant.page/) [ fini ]
 	|	|-> v1.15.0 = css grid [ en cours ]
 	|	|-> v1.16.0 = tail wind css (https://www.tailwindcss.com) [ en cours ]
-	|	|-> v1.17.0 = <py-script></py-script> / Python / server en local [ en cours ]
+	|	|-> v1.17.0 = <py-script></py-script> / Python (back end) / server en local [ en cours ]
 	|	|-> v1.18.0 = javascript pour le caroussel [ en cours ]
 	|	|-> v1.19.0 = correctif final [ en cours ]
 	|	|	|-> potenciel vrais pause sur le projet.
@@ -85,10 +86,15 @@
 
 ## Version actuelle
 	v1.15.0
+
 ## Languages web
-	css, html, php, javascript (jquery), shell, sql, json,
+	css, html, php, javascript (jquery), shell, sql, json, python
+
 ## Créé par 
 	Narvak
+
+## Date de création
+	15/12/2021
 
 ## Contributions
 	Si vous voulez contribuer à l'amélioration de Narflix vous pouvez le faire.
