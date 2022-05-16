@@ -17,7 +17,7 @@
 	|	|-> v1.5.0 = correctif (le header au centre) [ fini ]
 	|	|-> v1.6.0 = CLI (Docusaurus CLI) et database de base (en SQL) [ fini ]
 	|	|-> v1.7.0 = boutons type de jeux [ fini ]
-	|	|-> v1.8.0 = rajout des pages manquantes [ en cours ]
+	|	|-> v1.8.0 = rajout des pages manquantes [ fini ]
 	|	|-> v1.9.0 = correctif (le header au centre) [ fini ]
 	|	|-> v1.10.0 = sous compte [ fini ]
 	|	|-> v1.11.0 = responsive (sans le fichier media-queries.css) [ fini ]
@@ -25,8 +25,8 @@
 	|	|-> v1.13.0 = nombre d'images ( de 9 à 8 ) [ fini ]
 	|	|-> v1.14.0 = instant.page (https://instant.page/) [ fini ]
 	|	|-> v1.15.0 = css grid [ en cours ]
-	|	|-> v1.16.0 = tail wind css (https://www.tailwindcss.com) [ en cours ]
-	|	|-> v1.17.0 = <py-script></py-script> / Python (back end) / server en local [ en cours ]
+	|	|-> v1.16.0 = Python (back end) / server en local [ en cours ]
+	|	|-> v1.17.0 = <py-script></py-script> [ en cours ]
 	|	|-> v1.18.0 = javascript pour le caroussel [ en cours ]
 	|	|-> v1.19.0 = correctif final [ en cours ]
 	|	|	|-> potenciel vrais pause sur le projet.
@@ -45,6 +45,13 @@
 	|	|-> v2.10.0 = référencement seo [  ]
 	|	|-> v2.11.0 = correctif final [  ]
 	|	|-> v2.12.0 = [  ]
+	|	|-> v2.13.0 = [  ]
+	|	|-> v2.14.0 = [  ]
+	|	|-> v2.15.0 = [  ]
+	|	|-> v2.16.0 = [  ]
+	|	|-> v2.17.0 = [  ]
+	|	|-> v2.18.0 = [  ]
+	|	|-> v2.19.0 = [  ]
 	|
 	|-> v3.0.0 = amélioration de l'algorithme de recommandation v2.0.0 [  ]
 	|	|-> v3.1.0 = réseau sociaux (instagram, tik tok, discord, télégram, ) [  ]
@@ -57,32 +64,30 @@
 	|	|-> v3.8.0 = conditions d'utilisation, ... [  ]
 	|	|-> v3.9.0 = correctif final [  ]
 	|
-	|-> v4.0.0 = inscription [  ]
-	|	|-> v4.1.0 = amelioration de la database (en sql) final [ en cours ]
-	|	|-> v4.2.0 = correctif [  ]
-	|	|-> v4.3.0 = notifications pour les clients (sms, mail, site web) [  ]
-	|	|-> v4.4.0 = themes (horreur / matrix / corsaire(Old English Text MT) / street art / ) [  ]
-	|	|-> v4.5.0 = barre de progression (coté front pour que les clients puisse savoir ou est ce qu'ils en sont.) [  ]
-	|	|-> v4.6.0 = aplication (andoïd, ios) [  ]
-	|	|-> v4.7.0 = aplication pour desktop et laptop [  ]
-	|	|-> v4.8.0 = image de profile (https://fr.gravatar.com/site/implement) [  ]
-	|	|-> v4.9.0 = correctif [  ]
-	|	|-> v4.10.0 = téléchargement des services sur l'appareil (avec ou sans compte et les fichiers reste sur l'appareil) [  ]
-	|	|-> v4.11.0 = notation des films, séries, mangas, BD, jeux, musiques sur 5 étoiles. [  ]
-	|	|-> v4.12.0 = correctif [  ]
-	|	|-> v4.13.0 = Vue ou pas encore vu [  ]
-	|	|-> v4.14.0 = un compte pour plusieurs personnes (sous compte) [  ]
-	|	|-> v4.15.0 = correctif [  ]
-	|	|-> v4.16.0 = amelioration de l'algorithme de recommandation v4.0.0 [  ]
-	|	|-> v4.17.0 = newsletter [  ]
-	|	|-> v4.18.0 = [  ]
-	|	|-> v4.19.0 = correctif final [  ]
+	|-> v4.0.0 = live (stream comme twitch)
+	|	|-> v4.1.0 = 
+	|	|-> v4.2.0 = 
 	|
-	|-> v5.0.0 = API (a voir) [  ]
-	|	|-> v5.1.0 = anticopy comme Netflix (a voir) [  ]
-	|
-	|-> v6.0.0 = [  ]
-	|	|-> v6.1.0 = [  ]
+	|-> v5.0.0 = inscription [  ]
+	|	|-> v5.1.0 = amelioration de la database (en sql) final [ en cours ]
+	|	|-> v5.2.0 = correctif [  ]
+	|	|-> v5.3.0 = notifications pour les clients (sms, mail, site web) [  ]
+	|	|-> v5.4.0 = themes (horreur / matrix / corsaire(Old English Text MT) / street art / ) [  ]
+	|	|-> v5.5.0 = barre de progression (coté front pour que les clients puisse savoir ou est ce qu'ils en sont.) [  ]
+	|	|-> v5.6.0 = aplication (andoïd, ios) [  ]
+	|	|-> v5.7.0 = aplication pour desktop et laptop [  ]
+	|	|-> v5.8.0 = image de profile (https://fr.gravatar.com/site/implement) [  ]
+	|	|-> v5.9.0 = correctif [  ]
+	|	|-> v5.10.0 = téléchargement des services sur l'appareil (avec ou sans compte et les fichiers reste sur l'appareil) [  ]
+	|	|-> v5.11.0 = notation des films, séries, mangas, BD, jeux, musiques sur 5 étoiles. [  ]
+	|	|-> v5.12.0 = correctif [  ]
+	|	|-> v5.13.0 = Vue ou pas encore vu [  ]
+	|	|-> v5.14.0 = un compte pour plusieurs personnes (sous compte) [  ]
+	|	|-> v5.15.0 = correctif [  ]
+	|	|-> v5.16.0 = amelioration de l'algorithme de recommandation v4.0.0 [  ]
+	|	|-> v5.17.0 = newsletter [  ]
+	|	|-> v5.18.0 = [  ]
+	|	|-> v5.19.0 = correctif final [  ]
 
 ## Version actuelle
 	v1.15.0
@@ -95,9 +100,6 @@
 
 ## Date de création
 	15/12/2021
-
-## Contributions
-	Si vous voulez contribuer à l'amélioration de Narflix vous pouvez le faire.
 
 ## Contributeurs
 	Narvak
