@@ -26,9 +26,10 @@
 	|	|-> v1.14.0 = instant.page (https://instant.page/) [ fini ]
 	|	|-> v1.15.0 = css grid [ en cours ]
 	|	|-> v1.16.0 = correctifs [ en cours ]
-	|	|-> v1.17.0 = Python (back end) / server en local [ en cours ]
+	|	|-> v1.17.0 = server en local [ en cours ]
 	|	|-> v1.18.0 = javascript pour le caroussel [ en cours ]
 	|	|-> v1.19.0 = correctif final [ en cours ]
+	|	|-> v1.20.0 = pop up [ en cours ]
 	|	|	|-> potenciel vrais pause sur le projet.
 	|
 	|-> v2.0.0 = refaire NARFLIX à l’identique mais en php -> syphony/laravel [ en cours ]
@@ -43,7 +44,7 @@
 	|	|-> v2.8.0 = pages d'erreures (404, 500, ) [  ]
 	|	|-> v2.9.0 = correctif [  ]
 	|	|-> v2.10.0 = référencement seo [  ]
-	|	|-> v2.11.0 = correctif final [  ]
+	|	|-> v2.11.0 = correctif [  ]
 	|	|-> v2.12.0 = [  ]
 	|	|-> v2.13.0 = [  ]
 	|	|-> v2.14.0 = [  ]
